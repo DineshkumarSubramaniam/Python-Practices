@@ -7,7 +7,8 @@ sum = 0
 
 # find the sum of the cube of each digit
 temp = number
-while temp > 0:  # Condition check
+# Condition check
+while temp > 0: 
     digit = temp % 10
     sum = sum + (digit * digit * digit)
     temp = temp // 10
